@@ -4,7 +4,6 @@ title = "Organization Gitleaks Config"
 description = "Global allowlist for the organization"
 paths = [
     '''go\.sum''',
-    '''package-lock\.json''',
     '''yarn\.lock'''
 ]
 
