@@ -1,0 +1,6 @@
+{
+    "name": "Organization Gitleaks Scan",
+    "description": "Standard security scanning for our organization.",
+    "iconName": "shield",
+    "categories": ["Security"]
+}
