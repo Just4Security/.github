@@ -49,9 +49,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITLEAKS_LICENSE: ${{ secrets.GITLEAKS_LICENSE }} 
+          GITLEAKS_CONFIG: "security-ops-config/gitleaks.toml"
         with:
-          # 指向刚才 checkout 下来的统一配置文件
-          config-path: security-ops-config/gitleaks.toml
           # 发现泄露时立即报错
           break-status: true 
           verbose: true
